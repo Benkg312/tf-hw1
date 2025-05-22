@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "bucket-for-3s3" # <— replace with YOUR bucket name
+    bucket = "bucket-for-3s3"
     key    = "tf-hw1/terraform.tfstate"
     region = "us-east-2"
   }
